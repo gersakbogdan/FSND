@@ -12,9 +12,9 @@ def tree(size, myTurtle):
     if size > 5:
         myTurtle.forward(size)
         myTurtle.left(25)
-        tree(size - random.randint(10, 20),t)
+        tree(size - random.randint(10, 20), myTurtle)
         myTurtle.right(50)
-        tree(size - random.randint(10, 20),t)
+        tree(size - random.randint(10, 20), myTurtle)
         myTurtle.left(25)
         myTurtle.penup()
         myTurtle.backward(size)
